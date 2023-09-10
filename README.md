@@ -1,2 +1,2 @@
 # JavaIntro
-Repot for content about introduction to coding in Java
+Repo for introduction to coding in Java
