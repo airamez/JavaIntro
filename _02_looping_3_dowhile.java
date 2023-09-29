@@ -17,7 +17,7 @@
 
 import java.io.Console;
 
-public class _04_dowhile {
+public class _02_looping_3_dowhile {
     public static void main(String[] args) {
         Console console = System.console();
 

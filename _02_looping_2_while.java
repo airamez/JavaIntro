@@ -13,7 +13,7 @@
 
 import java.io.Console;
 
-public class _03_while {
+public class _02_looping_2_while {
     public static void main(String[] args) {
         Console console = System.console();
 

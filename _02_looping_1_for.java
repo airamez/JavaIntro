@@ -13,7 +13,7 @@
  Reference: https://www.w3schools.com/java/java_for_loop.asp
  */
 
-public class _02_for {
+public class _02_looping_1_for {
     public static void main(String[] args) {
 
         // Example 1: Printing from 1 to 9

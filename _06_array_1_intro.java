@@ -10,7 +10,7 @@
  * ATTENTION: Try these questions https://github.com/airamez/IntroToCode_CSharp01/blob/main/_05_Array/_04_ArrayPractices.txt
  */
 
-public class _08_array_intro {
+public class _06_array_1_intro {
     public static void main (String[] args) {
         // Declaring and initializing an array of integers
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -41,12 +41,14 @@ public class _08_array_intro {
     * Print all elements of the array
     * @param array array of integers
     */
-    private static void printArray(int[] array) {
+    public static void printArray(int[] array) {
+        System.out.print("[");
         // Printing in-line all elements but the last, followed by comman and space
         for (int i = 0; i < array.length - 1; i++) {
             System.out.printf("%d, ", array[i]);
         }
         // Printing the last element and new line
-        System.out.println(array[array.length - 1]);
+        System.out.print(array[array.length - 1]);
+        System.out.println("]");
     }
 }
