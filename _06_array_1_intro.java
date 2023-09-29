@@ -16,7 +16,7 @@ public class _06_array_1_intro {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.printf("Length = %d%n", numbers.length);
 
-        printArray(numbers);
+        printArray("numbers",numbers);
 
         // Accesing the 6th element (index = 5)
         System.out.printf("numbers[5] = %d%n", numbers[5]);
@@ -24,7 +24,7 @@ public class _06_array_1_intro {
         // Setting the value of the 6th element
         numbers[5] = 10;
         System.out.printf("numbers[5] = %d%n", numbers[5]);
-        printArray(numbers);
+        printArray("numbers",numbers);
 
         // Re-initializing the array
         numbers = new int[5];
@@ -34,15 +34,15 @@ public class _06_array_1_intro {
         numbers[2] = 30;
         numbers[3] = 40;
         numbers[4] = 50;
-        printArray(numbers);
+        printArray("numbers", numbers);
     }
 
    /**
     * Print all elements of the array
     * @param array array of integers
     */
-    public static void printArray(int[] array) {
-        System.out.print("[");
+    public static void printArray(String label,  int[] array) {
+        System.out.printf("%s: [", label);
         // Printing in-line all elements but the last, followed by comman and space
         for (int i = 0; i < array.length - 1; i++) {
             System.out.printf("%d, ", array[i]);
