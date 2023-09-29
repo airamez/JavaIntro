@@ -4,15 +4,12 @@
  * It consist of a expression logic
  * The content is executed while the logical expression is true (or until it is false)
 
- Sintaxe:
- do {
-    CONTENT
- } whie (LOGICAL_EXPRESSIONS);
+   Sintaxe:
+   do {
+       CONTENT
+   } whie (LOGICAL_EXPRESSIONS);
 
- Reference: https://www.w3schools.com/java/java_while_loop.asp
-
- ATTENTION: Try these questions https://github.com/airamez/IntroToCode_CSharp01/blob/main/_03_RepetitionCommands/_05_RepetionCommandPractice.txt
-
+   Reference: https://www.w3schools.com/java/java_while_loop.asp
  */
 
 import java.io.Console;

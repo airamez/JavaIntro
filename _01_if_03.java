@@ -5,8 +5,6 @@
  * When one of the logical expression is false the content of the if executed and everything else is ignored
  * The flow continue until a logical expression is true or the flow lands on the else statement at the bottom,
  * if it is present
- * 
- * ATTETNION: Try these questions https://github.com/airamez/IntroToCode_CSharp01/blob/main/_02_selectionCommands/_03_SelectionPractices.txt
  */
 
  import java.io.Console;
