@@ -1,14 +1,20 @@
 /*
- * Array is the most basic data structure and in Java consists of a collection of fixed length with elements of the same type
- * Declaration: TYPE[] name
- * Initialization: name = new TYPE[LENGTH];
- * The elements of the array are accessed by an index, starting with 0
- * The length of the array is stored in the property length :)
- * 
- * Reference: https://www.w3schools.com/java/java_arrays.asp
- * 
- * ATTENTION: Try these questions https://github.com/airamez/IntroToCode_CSharp01/blob/main/_05_Array/_04_ArrayPractices.txt
- */
+* Array
+  * Definition
+    * Collection of "variables" of the same type
+    * It is the most basic "data structure"
+  * Properties
+    * All elements are of the same type
+    * Static size/length
+    * Elements accessed by index (zero based)
+    * The size (length) is stored in a property called length
+    * Dynamic type (like a class/object)
+  * Declaration
+    TYPE[] name
+  * Initialization
+     name = new TYPE[LENGTH];
+  * Reference: https://www.w3schools.com/java/java_arrays.asp
+*/
 
 public class _06_array_1_intro {
     public static void main (String[] args) {

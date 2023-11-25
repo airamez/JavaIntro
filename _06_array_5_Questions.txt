@@ -54,3 +54,10 @@
     Input:  02815
     Output: *****
     Congrats, You won!
+28. Using the multidimentions array about preciptions fom the _06_array_4_multi_dimensional program,
+    Create methods to find the following information:
+    a) Average preciption per state
+    b) Max and Min preciptation per state
+    c) Stated with the highest average of preciption
+    d) Max and min preciptions overal preciptation
+    e) Which months had the highest preciptation

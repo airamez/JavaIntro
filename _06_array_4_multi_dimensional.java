@@ -2,7 +2,8 @@ public class _06_array_4_multi_dimensional {
     public static void main (String[] args) {
         String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "Octorber", "Nocvember", "December"};
         int[] preciptationPerMonth = {5, 3, 6, 2, 1, 0, 0, 8, 10, 5, 3, 6};
-        // Printing precipatin per month
+        
+        // Printing precipation per month
         for (int i = 0; i < preciptationPerMonth.length; i++) {
             System.out.printf("%s= %s\n", months[i], preciptationPerMonth[i]);
         }
